@@ -1,6 +1,9 @@
+let address = window.location.href;
+console.log(address)
+
 const getQuote = () => {
-    fetch("https://beyonce-lyrics-generator.herokuapp.com/lyrics", {mode: 'no-cors'})
-    .then(resp => resp.json())
+    fetch(address + "lyrics", {mode: 'no-cors'})
+    .then(resp =>  resp.json())
     .then(data => {
         document.getElementById("lyric").innerHTML = data.lyric;
         document.getElementById("song").innerHTML = data.song;
@@ -9,12 +12,5 @@ const getQuote = () => {
       console.log("An error occurred");
     })
 };
-
-
-
-
-
-
-
 
 getQuote()
