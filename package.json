@@ -1,0 +1,24 @@
+{
+  "name": "beyonce-lyrics-generator",
+  "version": "1.0.0",
+  "description": "An open source API for the B Hive.",
+  "main": "index.js",
+  "scripts": {
+    "test": " \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iidodson/Beyonce-Lyrics-Generator.git"
+  },
+  "author": "Indya Dodson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iidodson/Beyonce-Lyrics-Generator/issues"
+  },
+  "homepage": "https://github.com/iidodson/Beyonce-Lyrics-Generator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
