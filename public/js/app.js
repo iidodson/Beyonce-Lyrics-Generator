@@ -9,7 +9,7 @@ console.log(photo_margin, height)
 
 
 let photo_container = document.getElementById("photo");
-photo_container.style.marginTop = photo_margin + "px";
+// photo_container.style.marginTop = photo_margin + "px";
 
 // const width  = window.innerWidth || document.documentElement.clientWidth || 
 // document.body.clientWidth;
