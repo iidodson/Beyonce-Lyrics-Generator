@@ -1,5 +1,8 @@
 let address = window.location.href;
-console.log(address)
+
+let photo_container = document.getElementById("photo");
+photo_container.style.marginTop = "50px";
+
 
 const getQuote = () => {
     fetch(address + "lyrics", {mode: 'no-cors'})
