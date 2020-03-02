@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
   
 
-fetch("https://raw.githubusercontent.com/iidodson/Beyonce.rest/master/lyrics.json")
+fetch("https://raw.githubusercontent.com/iidodson/Beyonce-Lyrics-Generator/master/lyrics.json")
     .then(function(resp){
         return resp.json();
     })
